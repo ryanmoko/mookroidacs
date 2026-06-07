@@ -2,11 +2,11 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 local_ip=$(hostname -I | awk '{print $1}')
-echo -e "${GREEN}============================================================================${NC}"
-echo -e "${GREEN}==================== Script Install MookroidACS All In One. ================${NC}"
-echo -e "${GREEN}======================== NodeJS, MongoDB, GenieACS, ========================${NC}"
-echo -e "${GREEN}===================== By MookroidACS. Info 082241832228 ====================${NC}"
-echo -e "${GREEN}============================================================================${NC}"
+echo -e "${GREEN}==========================================================================${NC}"
+echo -e "${GREEN}=================== Script Install MookroidACS All In One. ===============${NC}"
+echo -e "${GREEN}======================= NodeJS, MongoDB, GenieACS, =======================${NC}"
+echo -e "${GREEN}==================== By MookroidACS. Info 082241832228 ===================${NC}"
+echo -e "${GREEN}==========================================================================${NC}"
 echo -e "${GREEN}Apakah anda ingin melanjutkan? (y/n)${NC}"
 read confirmation
 if [ "$confirmation" != "y" ]; then
