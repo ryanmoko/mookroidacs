@@ -1,16 +1,19 @@
-# mookroidacs
-# Keterangan
-Pastikan sudah terinstall paket git dan curl terinstall. Jika belum ketikan perintah di bawah ini: Install terlebih dahulu
+### 1. Clone Repository
 
-# Printah
+```bash
+# Install git jika belum ada
+apt install git curl -y
 
-apt install git curl wget -y
+# Clone repository
 git clone https://github.com/ryanmoko/mookroidacs
+cd mookroidacs
+```
 
-# Scrip
+### 2. Install MookroidACS
 
+```bash
+# Install semua dependencies
 cd mookroidacs
 chmod +x AutoInstallMookroidACS.sh
 ./AutoInstallMookroidACS.sh
-
-#sekian
+```
