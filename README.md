@@ -1,19 +1,22 @@
-### 1. Clone Repository
+# MultiTab Full parameter
 
-```bash
-# Install git jika belum ada
-apt install git curl -y
+# Keterangan
+Pastikan sudah terinstall paket git terinstall. Jika belum ketikan perintah di bawah ini:
+Install terlebih dahulu
 
-# Clone repository
-git clone https://github.com/ryanmoko/mookroidacs
-cd mookroidacs
+# Printah
+```
+apt install git -y
+https://github.com/sulhanqidri/MultiTabGenieACS
+```
+# Penjelasan
+Download file bash
+Ubah hak akses file menjadi execute
+
+```
+cd MultiTabGenieACS
+chmod +x install.sh
+./install.sh
 ```
 
-### 2. Install MookroidACS
-
-```bash
-# Install semua dependencies
-cd mookroidacs
-chmod +x AutoInstallMookroidACS.sh
-./AutoInstallMookroidACS.sh
-```
+# Silahkan buka berdasarkan ip address
